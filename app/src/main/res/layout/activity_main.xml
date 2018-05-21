@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextOperation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorDarkGray"
@@ -28,12 +28,14 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
             android:gravity="center">
 
             <Button
                 android:id="@+id/buttonAc"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:text="AC"
                 android:textSize="18sp"
@@ -43,6 +45,7 @@
                 android:id="@+id/button_plus_minus"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="+/-"
@@ -53,6 +56,7 @@
                 android:id="@+id/buttonPercent"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:text="%"
                 android:textSize="18sp"
@@ -62,7 +66,9 @@
                 android:id="@+id/buttonDiv"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorYellow"
+                android:onClick="viewOperationEvent"
                 android:text="/"
                 android:textSize="18sp" />
         </TableRow>
@@ -70,12 +76,14 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
             android:gravity="center">
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="7"
@@ -85,6 +93,7 @@
                 android:id="@+id/button8"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="8"
@@ -94,6 +103,7 @@
                 android:id="@+id/button9"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="9"
@@ -103,7 +113,9 @@
                 android:id="@+id/buttonMul"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorYellow"
+                android:onClick="viewOperationEvent"
                 android:text="X"
                 android:textSize="18sp" />
         </TableRow>
@@ -111,12 +123,14 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
             android:gravity="center">
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="4"
@@ -126,6 +140,7 @@
                 android:id="@+id/button5"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="5"
@@ -135,6 +150,7 @@
                 android:id="@+id/button6"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="6"
@@ -144,7 +160,9 @@
                 android:id="@+id/buttonSub"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorYellow"
+                android:onClick="viewOperationEvent"
                 android:text="-"
                 android:textSize="18sp" />
         </TableRow>
@@ -152,12 +170,15 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
             android:gravity="center">
 
             <Button
                 android:id="@+id/button1"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="1dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="1"
@@ -167,6 +188,7 @@
                 android:id="@+id/button2"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="2"
@@ -176,6 +198,7 @@
                 android:id="@+id/button3"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="3"
@@ -185,11 +208,12 @@
                 android:id="@+id/buttonAdition"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="@dimen/button_width"
+                android:layout_marginEnd="2dp"
                 android:background="@color/colorYellow"
+                android:onClick="viewOperationEvent"
                 android:text="+"
                 android:textSize="18sp" />
         </TableRow>
-
 
     </TableLayout>
 
@@ -203,6 +227,7 @@
             android:id="@+id/button0"
             android:layout_width="@dimen/button_width_65"
             android:layout_height="@dimen/button_width"
+            android:layout_marginEnd="2dp"
             android:layout_weight="1"
             android:background="@color/colorGray"
             android:onClick="buttonNumberEvent"
@@ -213,6 +238,7 @@
             android:id="@+id/buttonDot"
             android:layout_width="@dimen/button_width_65"
             android:layout_height="@dimen/button_width"
+            android:layout_marginEnd="2dp"
             android:layout_weight="1"
             android:background="@color/colorGray"
             android:onClick="buttonNumberEvent"
@@ -225,9 +251,9 @@
             android:layout_height="@dimen/button_width"
             android:layout_weight="1"
             android:background="@color/colorYellow"
+            android:onClick="buttonEqualEvent"
             android:text="="
             android:textSize="18sp" />
     </LinearLayout>
-
 
 </LinearLayout>
