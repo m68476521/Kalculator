@@ -120,4 +120,15 @@ class MainActivity : AppCompatActivity() {
 
         editTextOperation.setText(finalResult.toString())
     }
+
+    fun buttonPercent(view:View) {
+        var number = editTextOperation.text.toString().toDouble() / 100
+        editTextOperation.setText(number.toString())
+        isNewOperation = true
+    }
+
+    fun buttonAC(view:View) {
+        editTextOperation.setText("0")
+        isNewOperation = true
+    }
 }

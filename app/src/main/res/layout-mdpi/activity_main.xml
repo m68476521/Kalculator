@@ -18,7 +18,7 @@
         android:inputType="textPersonName"
         android:paddingTop="30dp"
         android:textColor="@color/colorWhite"
-        android:textSize="30sp"
+        android:textSize="40sp"
         tools:text="0" />
 
     <TableLayout
@@ -39,7 +39,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonAC"
                 android:text="AC"
-                android:textSize="18sp"
+                android:textSize="28sp"
                 tools:text="AC" />
 
             <Button
@@ -50,7 +50,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="+/-"
-                android:textSize="18sp"
+                android:textSize="28sp"
                 tools:text="+/-" />
 
             <Button
@@ -61,7 +61,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonPercent"
                 android:text="%"
-                android:textSize="18sp"
+                android:textSize="28sp"
                 tools:text="%" />
 
             <Button
@@ -72,7 +72,7 @@
                 android:background="@color/colorYellow"
                 android:onClick="viewOperationEvent"
                 android:text="/"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
         </TableRow>
 
         <TableRow
@@ -89,7 +89,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="7"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button8"
@@ -99,7 +99,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="8"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button9"
@@ -109,7 +109,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="9"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/buttonMul"
@@ -119,7 +119,7 @@
                 android:background="@color/colorYellow"
                 android:onClick="viewOperationEvent"
                 android:text="X"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
         </TableRow>
 
         <TableRow
@@ -136,7 +136,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="4"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button5"
@@ -146,7 +146,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="5"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button6"
@@ -156,7 +156,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="6"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/buttonSub"
@@ -166,7 +166,7 @@
                 android:background="@color/colorYellow"
                 android:onClick="viewOperationEvent"
                 android:text="-"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
         </TableRow>
 
         <TableRow
@@ -184,7 +184,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="1"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button2"
@@ -194,7 +194,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="2"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/button3"
@@ -204,7 +204,7 @@
                 android:background="@color/colorGray"
                 android:onClick="buttonNumberEvent"
                 android:text="3"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
 
             <Button
                 android:id="@+id/buttonAdition"
@@ -214,7 +214,7 @@
                 android:background="@color/colorYellow"
                 android:onClick="viewOperationEvent"
                 android:text="+"
-                android:textSize="18sp" />
+                android:textSize="28sp" />
         </TableRow>
 
     </TableLayout>
@@ -234,7 +234,7 @@
             android:background="@color/colorGray"
             android:onClick="buttonNumberEvent"
             android:text="0"
-            android:textSize="18sp" />
+            android:textSize="28sp" />
 
         <Button
             android:id="@+id/buttonDot"
@@ -245,7 +245,7 @@
             android:background="@color/colorGray"
             android:onClick="buttonNumberEvent"
             android:text="."
-            android:textSize="18sp" />
+            android:textSize="28sp" />
 
         <Button
             android:id="@+id/buttonEquals"
@@ -255,7 +255,7 @@
             android:background="@color/colorYellow"
             android:onClick="buttonEqualEvent"
             android:text="="
-            android:textSize="18sp" />
+            android:textSize="28sp" />
     </LinearLayout>
 
 </LinearLayout>
